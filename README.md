@@ -14,4 +14,8 @@ This repo contains a controller which is dealing with Cars. You can POST/GET/GET
 - Microsoft.EntityFrameworkCore design
 - Microsoft.EntityFrameworkCore sqlite
 
-#
+## Setup database (sqlite)
+
+Here I use sqlite for easy and simple 
+
+before run the command you need to delete car.db from repo   
