@@ -49,12 +49,17 @@ we have basic API controller
    if name,model and owner are not equal to any elemets in tables then create new car otherwise run bad request 
    
 - GetAllCars
+
 - GetCarById 
+
    if Id is not found  run bad request 
+
 - UpdateCar
+
+
   if Id is not found  run bad request 
 - DeleteCar 
-- 
+
 
 ## DBMS
  
