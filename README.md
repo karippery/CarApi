@@ -41,5 +41,22 @@ our CAR API have 4 properties
 - Owner : string
 - Model : int 
 
+## controller
 
+we have basic API controller 
+
+- CreateCar 
+   if name,model and owner are not equal to any elemets in tables then create new car otherwise run bad request 
+   
+- GetAllCars
+- GetCarById 
+   if Id is not found  run bad request 
+- UpdateCar
+  if Id is not found  run bad request 
+- DeleteCar 
+- 
+
+## DBMS
+ 
+I am using DB browser sqlite
 
