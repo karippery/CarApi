@@ -22,4 +22,4 @@ Before run the command you need to delete car.db from repo  carApi/src/CarAPI.AP
 
 create migrations, apply migrations, and generate code for a model based on an existing database. The commands are an extension to the cross-platform dotnet command, which is part of the .NET Core SDK. These tools work with .NET Core projects.dotnet ef can be installed as either a global or local tool.
 
-`dotnet tool install --global dotnet-ef´
+'dotnet tool install --global dotnet-ef'
