@@ -18,4 +18,8 @@ This repo contains a controller which is dealing with Cars. You can POST/GET/GET
 
 Here I use sqlite for easy and simple 
 
-before run the command you need to delete car.db from repo   
+Before run the command you need to delete car.db from repo  carApi/src/CarAPI.API/
+
+create migrations, apply migrations, and generate code for a model based on an existing database. The commands are an extension to the cross-platform dotnet command, which is part of the .NET Core SDK. These tools work with .NET Core projects.dotnet ef can be installed as either a global or local tool.
+
+`dotnet tool install --global dotnet-ef´
