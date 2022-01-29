@@ -49,6 +49,7 @@ namespace CarAPI.API.Controllers
                 Owner = carCreateModel.Owner
             };
 
+            // avoid duplication based on condtion
 
             var carExists = await _context.Cars.FirstOrDefaultAsync(x => x.Model == createNewCar.Model && x.Name == createNewCar.Name &&
             x.Owner == createNewCar.Owner);
@@ -126,11 +127,8 @@ namespace CarAPI.API.Controllers
 
                 });
             }
-            if (carToUpdate.Model != null)
-            {
-                car.Model = carToUpdate.Model;
-            }
-
+            
+            car.Model = carToUpdate.Model;
             car.Owner = carToUpdate.Owner;
             car.Name = carToUpdate.Name;
             await _context.SaveChangesAsync();
