@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarAPI.API</name>
+    </assembly>
+    <members>
+        <member name="T:CarAPI.API.Controllers.CarController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.#ctor(Microsoft.Extensions.Logging.ILogger{CarAPI.API.Controllers.CarController},CarAPI.API.Persistence.CarContext)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.CreateCar(CarAPI.API.Models.CarCreateDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.GetAllCars">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.GetCarById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.UpdateCar(System.Int32,CarAPI.API.Models.CarCreateDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CarAPI.API.Controllers.CarController.DeleteCar(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CarAPI.API.Models.CarCreateDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CarAPI.API.Persistence.CarContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CarAPI.API.Persistence.CarContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CarAPI.API.Persistence.CarContext})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CarAPI.API.Persistence.CarContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>
