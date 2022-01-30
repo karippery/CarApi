@@ -61,7 +61,5 @@ we have basic API controller
 - DeleteCar 
 
 
-## DBMS
- 
-I am using DB browser sqlite
+
 
